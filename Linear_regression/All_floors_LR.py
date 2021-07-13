@@ -213,7 +213,7 @@ while(True):
 
     y5_pred = regressor.predict(x5)
 
-    df5 = pd.DataFrame({'Actual': y5.flatten(), 'Predicted': y1_pred.flatten()})
+    df5 = pd.DataFrame({'Actual': y5.flatten(), 'Predicted': y5_pred.flatten()})
     print('mean squared error',mean_squared_error(y5, y5_pred))
     print("AP_Total+Inst_kW_Load_Plug+PIR_ALL+CO2_ALL ",r2_score(y5, y5_pred))
 
