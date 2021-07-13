@@ -1,5 +1,5 @@
 # MLML-occupancy_prediction
-All folders containing different methods implemented for the project.
+All folders containing different training methods implemented for the project.
 for running the script following required libraries has to be installed and import in python.
 python version 3.9
 
